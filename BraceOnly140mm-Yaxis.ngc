@@ -1,0 +1,291 @@
+;PYCAM-META-DATA: Filename: /home/tony/chickiboom/BraceOnly140mm.stl
+;PYCAM-META-DATA: Timestamp: 2014-04-30 16:08:27.937425
+;PYCAM-META-DATA: Version: 0.5.1
+;Estimated machine time: 14 minutes
+G40 (disable tool radius compensation)
+G49 (disable tool length compensation)
+G80 (cancel modal motion)
+G54 (select coordinate system 1)
+G90 (disable incremental moves)
+G21 (metric)
+G61 (exact path mode)
+F800.00000
+S1000.00000
+;PYCAM_TOOLPATH_SETTINGS: START
+;[Bounds]
+;maxz = 26.7999992371
+;maxx = 898.260009766
+;maxy = 134.75
+;minx = 5.25
+;miny = 5.25
+;minz = 0.0
+;
+;[Tool]
+;torus_radius = 0.25
+;speed = 1000.0
+;shape = CylindricalCutter
+;tool_radius = 5.25
+;feedrate = 800.0
+;
+;[Process]
+;engrave_offset = 0.0
+;step_down = 3.0
+;generator = PushCutter
+;postprocessor = SimpleCutter
+;milling_style = ignore
+;material_allowance = 0.5
+;pocketing_type = none
+;path_direction = y
+;
+;PYCAM_TOOLPATH_SETTINGS: END
+T1 M6
+G0 Z30.0000
+M3 (start spindle)
+G04 P3 (wait for 3 seconds)
+ X5.2500 Y5.2500
+G1 Z26.8000
+ Y134.7500
+ X15.6338
+ Y5.2500
+ X26.0177
+ Y134.7500
+ X36.4015
+ Y5.2500
+ X46.7853
+ Y134.7500
+ X57.1692
+ Y5.2500
+ X67.5530
+ Y134.7500
+ Z23.8222
+ Y5.2500
+ X57.1692
+ Y134.7500
+ X46.7853
+ Y5.2500
+ X36.4015
+ Y134.7500
+ X26.0177
+ Y5.2500
+ X15.6338
+ Y134.7500
+ X5.2500
+ Y5.2500
+ Z20.8444
+ Y134.7500
+ X15.6338
+ Y5.2500
+ X26.0177
+ Y134.7500
+ X36.4015
+ Y5.2500
+ X46.7853
+ Y134.7500
+ X57.1692
+ Y5.2500
+ X67.5530
+ Y134.7500
+G0 Z30.0000
+M5 (stop spindle)
+G04 P3 (wait for 3 seconds)
+F800.00000
+S1000.00000
+;PYCAM_TOOLPATH_SETTINGS: START
+;[Bounds]
+;maxz = 26.7999992371
+;maxx = 898.260009766
+;maxy = 134.75
+;minx = 5.25
+;miny = 5.25
+;minz = 0.0
+;
+;[Tool]
+;torus_radius = 0.25
+;speed = 1000.0
+;shape = CylindricalCutter
+;tool_radius = 5.25
+;feedrate = 800.0
+;
+;[Process]
+;engrave_offset = 0.0
+;step_down = 1.5
+;generator = ContourFollow
+;postprocessor = SimpleCutter
+;milling_style = climb
+;material_allowance = 0.0
+;pocketing_type = none
+;path_direction = x
+;
+;PYCAM_TOOLPATH_SETTINGS: END
+G0 Z30.0000
+M3 (start spindle)
+G04 P3 (wait for 3 seconds)
+ X77.7499 Y5.2500
+G1 Z26.8000
+ Y134.7500
+G0 Z30.0000
+ X98.2500
+G1 Z26.8000
+ Y5.2500
+ X98.8624
+ Y134.7500
+G0 Z30.0000
+ X119.3625
+G1 Z26.8000
+ Y5.2500
+ X123.8624
+ Y134.7500
+G0 Z30.0000
+ X98.2500
+G1 Z25.3111
+ Y5.2500
+ X98.8624
+ Y29.7759
+G0 Z30.0000
+ Y5.2500
+G1 Z25.3111
+ Y134.7500
+G0 Z30.0000
+ X119.3625 Y15.5556
+G1 Z25.3111
+ Y5.2500
+G0 Z30.0000
+ Y134.7500
+G1 Z25.3111
+ Y5.2500
+ X123.8624
+ Y134.7500
+G0 Z30.0000
+ Y5.2500
+G1 Z25.3111
+ Y15.5556
+G0 Z30.0000
+ X98.2500 Y134.7500
+G1 Z23.8222
+ Y5.2500
+ X98.8624
+ Y134.7500
+G0 Z30.0000
+ X119.3625 Y31.1111
+G1 Z23.8222
+ Y5.2500
+G0 Z30.0000
+ Y134.7500
+G1 Z23.8222
+ Y5.2500
+ X123.8624
+ Y134.7500
+G0 Z30.0000
+ X98.2500
+G1 Z22.3333
+ Y5.2500
+ X98.8624
+ Y89.3277
+G0 Z30.0000
+ Y5.2500
+G1 Z22.3333
+ Y134.7500
+G0 Z30.0000
+ X119.3625 Y46.6667
+G1 Z22.3333
+ Y5.2500
+G0 Z30.0000
+ Y134.7500
+G1 Z22.3333
+ Y5.2500
+ X123.8624
+ Y134.7500
+G0 Z30.0000
+ Y5.2500
+G1 Z22.3333
+ Y46.6667
+G0 Z30.0000
+ X71.7944 Y5.2500
+G1 Z20.8444
+ Y122.6144
+ Y134.7500
+G0 Z30.0000
+ X98.2500
+G1 Z20.8444
+ Y20.8964
+G0 Z30.0000
+ Y134.7500
+G1 Z20.8444
+ Y5.2500
+ X98.8624
+ Y119.1036
+G0 Z30.0000
+ Y5.2500
+G1 Z20.8444
+ Y134.7500
+G0 Z30.0000
+ X119.3625 Y62.2222
+G1 Z20.8444
+ Y5.2500
+G0 Z30.0000
+ Y134.7500
+G1 Z20.8444
+ Y5.2500
+ X123.8624
+ Y134.7500
+G0 Z30.0000
+ Y5.2500
+G1 Z20.8444
+ Y62.2222
+G0 Z30.0000
+ X119.3625 Y77.7778
+G1 Z19.3556
+ Y5.2500
+G0 Z30.0000
+ Y134.7500
+G1 Z19.3556
+ Y5.2500
+ X123.8624
+ Y134.7500
+G0 Z30.0000
+ Y5.2500
+G1 Z19.3556
+ Y77.7778
+G0 Z30.0000
+ X119.3625 Y93.3333
+G1 Z17.8667
+ Y5.2500
+G0 Z30.0000
+ Y134.7500
+G1 Z17.8667
+ Y5.2500
+ X123.8624
+ Y134.7500
+G0 Z30.0000
+ Y5.2500
+G1 Z17.8667
+ Y93.3333
+G0 Z30.0000
+ X119.3625 Y108.8889
+G1 Z16.3778
+ Y5.2500
+ X123.8624
+ Y134.7500
+G0 Z30.0000
+ Y5.2500
+G1 Z16.3778
+ Y108.8889
+G0 Z30.0000
+ X119.3625 Y124.4444
+G1 Z14.8889
+ Y5.2500
+G0 Z30.0000
+ Y134.7500
+G1 Z14.8889
+ Y5.2500
+ X123.8624
+ Y134.7500
+G0 Z30.0000
+ Y5.2500
+G1 Z14.8889
+ Y124.4444
+G0 Z30.0000
+M5 (stop spindle)
+G04 P3 (wait for 3 seconds)
+G0 Z30.0000
+M2 (end program)
